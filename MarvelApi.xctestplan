@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "67EED85A-7D3A-4A49-81C5-87BDB60A3A58",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MarvelApi.xcodeproj",
+      "identifier" : "2274173F2A7A2CA500DCE81F",
+      "name" : "MarvelApi"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MarvelApi.xcodeproj",
+        "identifier" : "2274174F2A7A2CA600DCE81F",
+        "name" : "MarvelApiTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MarvelApi.xcodeproj",
+        "identifier" : "227417592A7A2CA600DCE81F",
+        "name" : "MarvelApiUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
